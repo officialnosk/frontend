@@ -1,4 +1,18 @@
 ---
 label: nosk
 hide_body: false
-fields: []
+fields:
+- name: okay-
+  type: text
+  config:
+    required: false
+  label: okay-
+- name: bog
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: bog
